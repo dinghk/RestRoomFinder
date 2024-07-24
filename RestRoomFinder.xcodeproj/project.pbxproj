@@ -7,41 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		125F09CF2C48BCA0007B40B0 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125F09CE2C48BCA0007B40B0 /* Webservice.swift */; };
+		125F09D12C48BCD5007B40B0 /* Restroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125F09D02C48BCD5007B40B0 /* Restroom.swift */; };
+		125F09D32C48BFEE007B40B0 /* RestroomsReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125F09D22C48BFEE007B40B0 /* RestroomsReducer.swift */; };
+		125F09D52C48C0ED007B40B0 /* RestroomMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125F09D42C48C0ED007B40B0 /* RestroomMiddleware.swift */; };
+		125F09D72C48C2B5007B40B0 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125F09D62C48C2B5007B40B0 /* LocationManager.swift */; };
 		34111D5D250FFE8C009064B8 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34111D5C250FFE8C009064B8 /* Store.swift */; };
 		34111D5E250FFE8C009064B8 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34111D5C250FFE8C009064B8 /* Store.swift */; };
 		342978D3250FEC1500F20610 /* HelloReduxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342978C0250FEC1300F20610 /* HelloReduxApp.swift */; };
 		342978D4250FEC1500F20610 /* HelloReduxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342978C0250FEC1300F20610 /* HelloReduxApp.swift */; };
-		342978D5250FEC1500F20610 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342978C1250FEC1300F20610 /* ContentView.swift */; };
-		342978D6250FEC1500F20610 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342978C1250FEC1300F20610 /* ContentView.swift */; };
 		342978D7250FEC1500F20610 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342978C2250FEC1500F20610 /* Assets.xcassets */; };
 		342978D8250FEC1500F20610 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342978C2250FEC1500F20610 /* Assets.xcassets */; };
-		3444313B2512EBF900DB8DE8 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3444313A2512EBF900DB8DE8 /* AddTaskView.swift */; };
-		3444313C2512EBF900DB8DE8 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3444313A2512EBF900DB8DE8 /* AddTaskView.swift */; };
-		346D49BE25123D2400C27E0E /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346D49BD25123D2400C27E0E /* Task.swift */; };
-		346D49BF25123D2400C27E0E /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346D49BD25123D2400C27E0E /* Task.swift */; };
-		346D49C525123D8F00C27E0E /* TaskReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346D49C425123D8F00C27E0E /* TaskReducer.swift */; };
-		346D49C625123D8F00C27E0E /* TaskReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346D49C425123D8F00C27E0E /* TaskReducer.swift */; };
-		34D2F6F12511507C00117401 /* CounterReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D2F6F02511507C00117401 /* CounterReducer.swift */; };
-		34D2F6F22511507C00117401 /* CounterReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D2F6F02511507C00117401 /* CounterReducer.swift */; };
 		34D2F6F4251150DC00117401 /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D2F6F3251150DC00117401 /* AppReducer.swift */; };
 		34D2F6F5251150DC00117401 /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D2F6F3251150DC00117401 /* AppReducer.swift */; };
+		8D29726925374665009F202C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D29726825374665009F202C /* Constants.swift */; };
+		8D29726A25374665009F202C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D29726825374665009F202C /* Constants.swift */; };
+		8D29727125374B62009F202C /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D29727025374B62009F202C /* HomeScreen.swift */; };
+		8D29727225374B62009F202C /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D29727025374B62009F202C /* HomeScreen.swift */; };
+		8D415FA92538AA22007650D2 /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D415FA82538AA22007650D2 /* Actions.swift */; };
+		8D415FAA2538AA22007650D2 /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D415FA82538AA22007650D2 /* Actions.swift */; };
+		8D54C7552537506100D42BEB /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D54C7542537506100D42BEB /* View+Extensions.swift */; };
+		8D54C7562537506100D42BEB /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D54C7542537506100D42BEB /* View+Extensions.swift */; };
+		8D54C762253797C300D42BEB /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D54C761253797C300D42BEB /* String+Extensions.swift */; };
+		8D54C763253797C300D42BEB /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D54C761253797C300D42BEB /* String+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		125F09CE2C48BCA0007B40B0 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		125F09D02C48BCD5007B40B0 /* Restroom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restroom.swift; sourceTree = "<group>"; };
+		125F09D22C48BFEE007B40B0 /* RestroomsReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestroomsReducer.swift; sourceTree = "<group>"; };
+		125F09D42C48C0ED007B40B0 /* RestroomMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestroomMiddleware.swift; sourceTree = "<group>"; };
+		125F09D62C48C2B5007B40B0 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		34111D5C250FFE8C009064B8 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		342978C0250FEC1300F20610 /* HelloReduxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloReduxApp.swift; sourceTree = "<group>"; };
-		342978C1250FEC1300F20610 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		342978C2250FEC1500F20610 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		342978C7250FEC1500F20610 /* HelloMiddleware.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloMiddleware.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		342978C7250FEC1500F20610 /* RestRoomFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestRoomFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		342978CA250FEC1500F20610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		342978CF250FEC1500F20610 /* HelloMiddleware.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloMiddleware.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		342978CF250FEC1500F20610 /* RestRoomFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestRoomFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		342978D1250FEC1500F20610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		342978D2250FEC1500F20610 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		3444313A2512EBF900DB8DE8 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
-		346D49BD25123D2400C27E0E /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
-		346D49C425123D8F00C27E0E /* TaskReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskReducer.swift; sourceTree = "<group>"; };
-		34D2F6F02511507C00117401 /* CounterReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterReducer.swift; sourceTree = "<group>"; };
 		34D2F6F3251150DC00117401 /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
+		8D29726825374665009F202C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8D29727025374B62009F202C /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		8D415FA82538AA22007650D2 /* Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actions.swift; sourceTree = "<group>"; };
+		8D54C7542537506100D42BEB /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		8D54C761253797C300D42BEB /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +75,9 @@
 		34111D5B250FFE80009064B8 /* Store */ = {
 			isa = PBXGroup;
 			children = (
-				34D2F6EF2511504000117401 /* reducers */,
+				8D29725A25374437009F202C /* Actions */,
+				8D297252253743EF009F202C /* Middlewares */,
+				34D2F6EF2511504000117401 /* Reducers */,
 				34111D5C250FFE8C009064B8 /* Store.swift */,
 			);
 			path = Store;
@@ -84,12 +96,15 @@
 		342978BF250FEC1300F20610 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				8D54C75925376D4E00D42BEB /* Managers */,
+				8D29727925374B88009F202C /* Extensions */,
+				8D29726F25374B36009F202C /* Views */,
+				8D2972672537464F009F202C /* Utils */,
+				8D297245253741B9009F202C /* Services */,
 				346D49BC25123D1100C27E0E /* Models */,
 				34111D5B250FFE80009064B8 /* Store */,
 				342978C0250FEC1300F20610 /* HelloReduxApp.swift */,
-				342978C1250FEC1300F20610 /* ContentView.swift */,
 				342978C2250FEC1500F20610 /* Assets.xcassets */,
-				3444313A2512EBF900DB8DE8 /* AddTaskView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -97,8 +112,8 @@
 		342978C8250FEC1500F20610 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				342978C7250FEC1500F20610 /* HelloMiddleware.app */,
-				342978CF250FEC1500F20610 /* HelloMiddleware.app */,
+				342978C7250FEC1500F20610 /* RestRoomFinder.app */,
+				342978CF250FEC1500F20610 /* RestRoomFinder.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,27 +138,83 @@
 		346D49BC25123D1100C27E0E /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				346D49BD25123D2400C27E0E /* Task.swift */,
+				125F09D02C48BCD5007B40B0 /* Restroom.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		34D2F6EF2511504000117401 /* reducers */ = {
+		34D2F6EF2511504000117401 /* Reducers */ = {
 			isa = PBXGroup;
 			children = (
-				34D2F6F02511507C00117401 /* CounterReducer.swift */,
 				34D2F6F3251150DC00117401 /* AppReducer.swift */,
-				346D49C425123D8F00C27E0E /* TaskReducer.swift */,
+				125F09D22C48BFEE007B40B0 /* RestroomsReducer.swift */,
 			);
-			path = reducers;
+			path = Reducers;
+			sourceTree = "<group>";
+		};
+		8D297245253741B9009F202C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				125F09CE2C48BCA0007B40B0 /* Webservice.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8D297252253743EF009F202C /* Middlewares */ = {
+			isa = PBXGroup;
+			children = (
+				125F09D42C48C0ED007B40B0 /* RestroomMiddleware.swift */,
+			);
+			path = Middlewares;
+			sourceTree = "<group>";
+		};
+		8D29725A25374437009F202C /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				8D415FA82538AA22007650D2 /* Actions.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		8D2972672537464F009F202C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8D29726825374665009F202C /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8D29726F25374B36009F202C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8D29727025374B62009F202C /* HomeScreen.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8D29727925374B88009F202C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8D54C7542537506100D42BEB /* View+Extensions.swift */,
+				8D54C761253797C300D42BEB /* String+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8D54C75925376D4E00D42BEB /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				125F09D62C48C2B5007B40B0 /* LocationManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		342978C6250FEC1500F20610 /* HelloMiddleware (iOS) */ = {
+		342978C6250FEC1500F20610 /* RestRoomFinder (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 342978DB250FEC1500F20610 /* Build configuration list for PBXNativeTarget "HelloMiddleware (iOS)" */;
+			buildConfigurationList = 342978DB250FEC1500F20610 /* Build configuration list for PBXNativeTarget "RestRoomFinder (iOS)" */;
 			buildPhases = (
 				342978C3250FEC1500F20610 /* Sources */,
 				342978C4250FEC1500F20610 /* Frameworks */,
@@ -153,14 +224,14 @@
 			);
 			dependencies = (
 			);
-			name = "HelloMiddleware (iOS)";
+			name = "RestRoomFinder (iOS)";
 			productName = "HelloRedux (iOS)";
-			productReference = 342978C7250FEC1500F20610 /* HelloMiddleware.app */;
+			productReference = 342978C7250FEC1500F20610 /* RestRoomFinder.app */;
 			productType = "com.apple.product-type.application";
 		};
-		342978CE250FEC1500F20610 /* HelloMiddleware (macOS) */ = {
+		342978CE250FEC1500F20610 /* RestRoomFinder (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 342978DE250FEC1500F20610 /* Build configuration list for PBXNativeTarget "HelloMiddleware (macOS)" */;
+			buildConfigurationList = 342978DE250FEC1500F20610 /* Build configuration list for PBXNativeTarget "RestRoomFinder (macOS)" */;
 			buildPhases = (
 				342978CB250FEC1500F20610 /* Sources */,
 				342978CC250FEC1500F20610 /* Frameworks */,
@@ -170,9 +241,9 @@
 			);
 			dependencies = (
 			);
-			name = "HelloMiddleware (macOS)";
+			name = "RestRoomFinder (macOS)";
 			productName = "HelloRedux (macOS)";
-			productReference = 342978CF250FEC1500F20610 /* HelloMiddleware.app */;
+			productReference = 342978CF250FEC1500F20610 /* RestRoomFinder.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -192,7 +263,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 342978BE250FEC1200F20610 /* Build configuration list for PBXProject "HelloMiddleware" */;
+			buildConfigurationList = 342978BE250FEC1200F20610 /* Build configuration list for PBXProject "RestRoomFinder" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -205,8 +276,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				342978C6250FEC1500F20610 /* HelloMiddleware (iOS) */,
-				342978CE250FEC1500F20610 /* HelloMiddleware (macOS) */,
+				342978C6250FEC1500F20610 /* RestRoomFinder (iOS) */,
+				342978CE250FEC1500F20610 /* RestRoomFinder (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -236,13 +307,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				34111D5D250FFE8C009064B8 /* Store.swift in Sources */,
-				34D2F6F12511507C00117401 /* CounterReducer.swift in Sources */,
-				342978D5250FEC1500F20610 /* ContentView.swift in Sources */,
-				3444313B2512EBF900DB8DE8 /* AddTaskView.swift in Sources */,
+				8D415FA92538AA22007650D2 /* Actions.swift in Sources */,
+				8D54C7552537506100D42BEB /* View+Extensions.swift in Sources */,
+				125F09D32C48BFEE007B40B0 /* RestroomsReducer.swift in Sources */,
+				8D54C762253797C300D42BEB /* String+Extensions.swift in Sources */,
+				8D29727125374B62009F202C /* HomeScreen.swift in Sources */,
 				342978D3250FEC1500F20610 /* HelloReduxApp.swift in Sources */,
-				346D49C525123D8F00C27E0E /* TaskReducer.swift in Sources */,
-				346D49BE25123D2400C27E0E /* Task.swift in Sources */,
+				125F09D12C48BCD5007B40B0 /* Restroom.swift in Sources */,
+				125F09D52C48C0ED007B40B0 /* RestroomMiddleware.swift in Sources */,
+				8D29726925374665009F202C /* Constants.swift in Sources */,
 				34D2F6F4251150DC00117401 /* AppReducer.swift in Sources */,
+				125F09CF2C48BCA0007B40B0 /* Webservice.swift in Sources */,
+				125F09D72C48C2B5007B40B0 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,12 +327,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				34111D5E250FFE8C009064B8 /* Store.swift in Sources */,
-				34D2F6F22511507C00117401 /* CounterReducer.swift in Sources */,
-				342978D6250FEC1500F20610 /* ContentView.swift in Sources */,
-				3444313C2512EBF900DB8DE8 /* AddTaskView.swift in Sources */,
+				8D415FAA2538AA22007650D2 /* Actions.swift in Sources */,
+				8D54C7562537506100D42BEB /* View+Extensions.swift in Sources */,
+				8D54C763253797C300D42BEB /* String+Extensions.swift in Sources */,
+				8D29727225374B62009F202C /* HomeScreen.swift in Sources */,
 				342978D4250FEC1500F20610 /* HelloReduxApp.swift in Sources */,
-				346D49C625123D8F00C27E0E /* TaskReducer.swift in Sources */,
-				346D49BF25123D2400C27E0E /* Task.swift in Sources */,
+				8D29726A25374665009F202C /* Constants.swift in Sources */,
 				34D2F6F5251150DC00117401 /* AppReducer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,7 +457,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B2Q8EGNCQA;
+				DEVELOPMENT_TEAM = 2AH86J5956;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -389,8 +465,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.HelloRedux;
-				PRODUCT_NAME = HelloMiddleware;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ding.test.restroom;
+				PRODUCT_NAME = RestRoomFinder;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -403,7 +479,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B2Q8EGNCQA;
+				DEVELOPMENT_TEAM = 2AH86J5956;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -411,8 +487,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.HelloRedux;
-				PRODUCT_NAME = HelloMiddleware;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ding.test.restroom;
+				PRODUCT_NAME = RestRoomFinder;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -438,7 +514,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.HelloRedux;
-				PRODUCT_NAME = HelloMiddleware;
+				PRODUCT_NAME = RestRoomFinder;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -462,7 +538,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.HelloRedux;
-				PRODUCT_NAME = HelloMiddleware;
+				PRODUCT_NAME = RestRoomFinder;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -471,7 +547,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		342978BE250FEC1200F20610 /* Build configuration list for PBXProject "HelloMiddleware" */ = {
+		342978BE250FEC1200F20610 /* Build configuration list for PBXProject "RestRoomFinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				342978D9250FEC1500F20610 /* Debug */,
@@ -480,7 +556,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		342978DB250FEC1500F20610 /* Build configuration list for PBXNativeTarget "HelloMiddleware (iOS)" */ = {
+		342978DB250FEC1500F20610 /* Build configuration list for PBXNativeTarget "RestRoomFinder (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				342978DC250FEC1500F20610 /* Debug */,
@@ -489,7 +565,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		342978DE250FEC1500F20610 /* Build configuration list for PBXNativeTarget "HelloMiddleware (macOS)" */ = {
+		342978DE250FEC1500F20610 /* Build configuration list for PBXNativeTarget "RestRoomFinder (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				342978DF250FEC1500F20610 /* Debug */,
