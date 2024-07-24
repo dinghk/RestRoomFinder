@@ -1,9 +1,9 @@
 
-# Netflix UI SwiftUI
+# Restroom Finder
 <br />
 <p align="center">
   <p align="center">
-    SwiftUI app to presenting Redux architecture
+    **SwiftUI** app to presenting **Redux** architecture
   </p>
 </p>
 
